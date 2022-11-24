@@ -1,0 +1,19 @@
+{
+  "name": "node-firebird",
+  "version": "1.0.0",
+  "description": "Rest API with firebird database",
+  "main": "src/index.js",
+  "author": "Iran Adryan",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-firebird": "^1.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
